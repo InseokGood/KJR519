@@ -214,6 +214,9 @@ int main(void)
     return 0;
 }
 ```
+#### 출력화면
+![2022-04-14 (2)](https://user-images.githubusercontent.com/101339244/163327088-2c5d3078-46a6-426e-99dc-8439371cebad.png)
+
 #### 성능
 허프만 트리를 만드는데 걸리는 시간 + 길이 m인 텍스트의  실제 인코딩 시간
 
