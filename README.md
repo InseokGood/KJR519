@@ -215,7 +215,8 @@ int main(void)
 }
 ```
 #### 출력화면
-![2022-04-12 (4)](https://user-images.githubusercontent.com/101339244/163328258-7b6c4038-effa-4acc-a534-0f1977e4d521.png)
+![2022-04-14 (4)](https://user-images.githubusercontent.com/101339244/163328445-8d5627a8-971c-4398-8b7d-3302d954d170.png)
+
 
 
 ### 성능
