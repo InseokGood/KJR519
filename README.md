@@ -199,7 +199,7 @@ void huffman_tree(int freq[], char ch_list[], int n)
         e.ptree = x;
         printf("%d+%d->%d \n", e1.key, e2.key, e.key);
         insert_min_heap(heap, e);
-    }
+    } 
     e = delete_min_heap(heap);
     print_codes(e.ptree, codes, top);
     destroy_tree(e.ptree);
@@ -214,4 +214,9 @@ int main(void)
     return 0;
 }
 ```
+#### 성능
+허프만 트리를 만드는데 걸리는 시간 + 길이 m인 텍스트의  실제 인코딩 시간
+O(nlogn)+O(m)=O(nlogn+m)
+logn에서 n은 문자 집합의 크기
+
 ### 참조자료: c언어로 쉽게풀어쓴 자료구조 교재 허프만 코드 부분
