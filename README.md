@@ -208,14 +208,15 @@ void huffman_tree(int freq[], char ch_list[], int n)
 
 int main(void)
 {
-    char ch_list[] = { 'T', 'C', 'C', 'A' };
+    char ch_list[] = { 'T', 'C', 'G', 'A' };
     int freq[] = { 90,270,120,450 };
     huffman_tree(freq, ch_list, 4);
     return 0;
 }
 ```
 #### 출력화면
-![2022-04-14 (2)](https://user-images.githubusercontent.com/101339244/163327088-2c5d3078-46a6-426e-99dc-8439371cebad.png)
+![2022-04-12 (4)](https://user-images.githubusercontent.com/101339244/163328258-7b6c4038-effa-4acc-a534-0f1977e4d521.png)
+
 
 ### 성능
 허프만 트리를 만드는데 걸리는 시간 + 길이 m인 텍스트의  실제 인코딩 시간
