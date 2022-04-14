@@ -408,3 +408,5 @@ int main()
 	return 0;
 }
 ```
+#### 출력 화면
+![2022-04-14](https://user-images.githubusercontent.com/101339244/163325548-2f97ff53-31a1-4228-ba03-25e8418ab015.png)
